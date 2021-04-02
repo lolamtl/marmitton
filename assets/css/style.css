@@ -18,7 +18,6 @@ header {
 
 header img {
   margin-left: 50px;
-  /* margin-top: 22px; */
   margin: 10px;
   width: 164px;
 }
@@ -52,9 +51,15 @@ main img {
   margin-top: 40px;
   margin-left: 25px;
 }
+ul {
+  list-style: disc;
+}
+li {
+  line-height: 25px;
+}
 p {
   line-height: 22px;
-  margin-bottom: 20px;
+  margin: 15px 0px;
 }
 
 h1 {
