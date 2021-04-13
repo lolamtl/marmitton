@@ -1,29 +1,25 @@
 body {
-  font-family: "Roboto";
+  font-family: Roboto;
   background-color: #efefef;
   font-size: 16px;
 }
-
 .container {
   width: 1024px;
   margin: auto;
   margin-bottom: 10px;
 }
-
 header {
-  background-color: white;
+  background-color: #fff;
   color: #f3735f;
   border-bottom: #f3735f 1px solid;
 }
-
 header img {
   margin-left: 50px;
   margin: 10px;
   width: 164px;
 }
-
 section {
-  background-color: white;
+  background-color: #fff;
   margin: 30px 60px;
   padding: 30px 60px;
   border-radius: 20px;
@@ -33,14 +29,15 @@ section {
   font-size: small;
   font-weight: normal;
   padding-top: 10px;
+  color: #6c6c6c;
 }
 .time {
   margin-left: 174px;
   margin-right: 170px;
   padding: 10px 50px;
   border-radius: 10px;
-  background-color: lightslategrey;
-  color: white;
+  background-color: #789;
+  color: #fff;
 }
 main img {
   width: 210px;
@@ -56,12 +53,13 @@ ul {
 }
 li {
   line-height: 25px;
+  color: #7d7d7d;
 }
 p {
   line-height: 22px;
   margin: 15px 0px;
+  color: #000;
 }
-
 h1 {
   font-size: 50px;
   font-weight: bold;
@@ -78,10 +76,19 @@ h2 {
 h3 {
   font-size: 18px;
   font-weight: bold;
-  color: white;
+  color: #fff;
   line-height: 22px;
   text-align: center;
 }
 h4 {
   font-weight: bold;
+  color: #393c6c;
+}
+footer,
+.foot {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #6c6c6c;
+  font-size: 12px;
 }
